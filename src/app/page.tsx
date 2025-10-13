@@ -20,9 +20,9 @@ export default function Home() {
         millions of lives
       </Paragraph>
       <Paragraph className="max-w-3xl mt-4">
-        I&apos;m a senior software engineer with{" "}
-        <Highlight>years of experience</Highlight> building scalable web apps
-        that are performance optimized and good looking.
+        I&apos;m a software engineer with{" "}
+        <Highlight>years of experience</Highlight> building diverse products,
+        I like to build products that are performance optimized and that are good looking.
       </Paragraph>
 
       {/*<ResumeSkills />*/}
