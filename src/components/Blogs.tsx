@@ -8,6 +8,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import {Badge} from "@/components/ui/badge";
 
+const AnimatedDiv = motion.div;
+
 export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
   const [hovered, setHovered] = useState<string | null>(null);
   return (
@@ -34,7 +36,7 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
           >
             <AnimatePresence mode="wait">
               {hovered === blog.slug && (
-                <motion.div
+                <AnimatedDiv
                   initial={{
                     opacity: 0,
                     scaleX: 0.95,
@@ -50,7 +52,8 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
                     scaleX: 0.95,
                     scaleY: 0.95,
                   }}
-                  className="absolute z-0 pointer-events-none bg-muted inset-0 h-full w-full rounded-md "
+                  // @ts-ignore
+                  className={"absolute z-0 pointer-events-none bg-muted inset-0 h-full w-full rounded-md"}
                 />
               )}
             </AnimatePresence>

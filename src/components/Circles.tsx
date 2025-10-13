@@ -21,6 +21,7 @@ export const Circles = () => {
           repeat: Infinity,
           delay: 0,
         }}
+        // @ts-ignore
         className="absolute left-1/2 top-1/2  h-45 w-45 rounded-[50%] bg-sky-500/20 shadow-[0_8px_16px_rgb(0_0_0/0.4)]"
       ></motion.div>
       <motion.div
@@ -41,6 +42,7 @@ export const Circles = () => {
           repeat: Infinity,
           delay: 2,
         }}
+        // @ts-ignore
         className="absolute left-1/2 top-1/2  h-45 w-45 rounded-[50%] bg-sky-500/8 shadow-[0_8px_16px_rgb(0_0_0/0.4)]"
       ></motion.div>
       <motion.div
@@ -61,6 +63,7 @@ export const Circles = () => {
           repeat: Infinity,
           delay: 4,
         }}
+        // @ts-ignore
         className="absolute left-1/2 top-1/2  h-45 w-45 rounded-[50%] bg-sky-500/8 shadow-[0_8px_16px_rgb(0_0_0/0.4)]"
       ></motion.div>
     </>

@@ -26,6 +26,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           duration: 0.5,
         }}
         key={product.slug}
+        // @ts-ignore
         className="relative"
       >
         <Image

@@ -195,6 +195,7 @@ const MediumArticles = () => {
                               scaleX: 0.95,
                               scaleY: 0.95,
                             }}
+                            // @ts-ignore
                             className={"absolute z-0 pointer-events-none bg-muted inset-0 h-full w-full rounded-md"}
                           />
                         )}
