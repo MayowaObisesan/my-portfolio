@@ -1,12 +1,18 @@
-import sidefolioAceternity from "/public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "/public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "/public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "/public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "/public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "/public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "/public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "/public/images/sidefolio-tailwindmasterkit-2.png";
+import feedbacksHome from "/public/projects-images/feedbacks-home.png";
+import feedbacksBrands from "/public/projects-images/feedbacks-brands.png";
+import feedbacksCategories from "/public/projects-images/feedbacks-categories.png";
+import aidHome from "/public/projects-images/aid-home.png";
+import aidProcessing from "/public/projects-images/aid-processing.png";
+import aidResult from "/public/projects-images/aid-result.png";
+import solideHome from "/public/projects-images/sol-ide-home.png";
+import solideOpen from "/public/projects-images/sol-ide-open.png";
+import solideCompiler from "/public/projects-images/sol-ide-compiler.png";
+import solideDeployment from "/public/projects-images/sol-ide-deployment.png";
+import solideTests from "/public/projects-images/sol-ide-tests.png";
+import walletproUnlock from "/public/projects-images/walletpro-unlock.png";
+import walletproSettings from "/public/projects-images/walletpro-settings.png";
 import FeedbacksSummary from "@/components/FeedbacksSummary.mdx";
+import SolIDESummary from "@/components/SolIDESummary.mdx";
 
 export const products = [
   {
@@ -14,8 +20,8 @@ export const products = [
     title: "Feedbacks",
     description:
       "A Platform to send, collect and manage feedbacks for both users and for brands.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+    thumbnail: feedbacksHome,
+    images: [feedbacksHome, feedbacksBrands, feedbacksCategories],
     stack: ["React Router", "Tailwindcss", "Zustand", "HeroUI"],
     slug: "feedbacks",
     content: (
@@ -29,8 +35,8 @@ export const products = [
     title: "AI Image Detector",
     description:
       "A Platform that detects AI generated Images and is always up-to-date.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
+    thumbnail: aidHome,
+    images: [aidHome, aidProcessing, aidResult],
     stack: ["Nextjs", "ShadcnUI", "Tailwindcss", "Python"],
     slug: "mirror",
     content: (
@@ -54,28 +60,31 @@ export const products = [
     description:
       "Sol-IDE is a MODERN web-based IDE that makes writing Solidity programming language more accessible with secure templates to start with. " +
       "Now you can quickly test your contracts on mobile, desktop and everywhere",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
+    thumbnail: solideOpen,
+    images: [solideHome, solideOpen, solideCompiler, solideDeployment, solideTests],
     stack: ["Nextjs", "Tailwindcss", "ShadcnUI", "Zustand"],
     slug: "sol-ide",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Create
+          Start building your smart contracts
+          ✓ Open the file explorer
+          ✓ Create or edit Solidity files
+          ✓ Your files are persisted
+          ✓ All basic editor operations supported
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+        <div>
+          {/*<SolIDESummary />*/}
+          Some of the best features of Sol-IDE:
+          <br/>
+          1. Sol-IDE works on Mobile, that means you can write, run and test Solidity Smart Contracts on Mobile. <br/>
+          2. Sol-IDE works well with all major wallets. It also allows you to test using virtual wallets, it is a bring your wallet-first platform. <br/>
+          3. Sol-IDE works with all major blockchains. It provides support for 67 major blockchains and that number also looks to grow rapidly. <br/>
+          4. Sol-IDE is built on modern technologies, that means more optimized performance and better user experience, with a captivating UI that does not strain your eye. <br/>
+          5. Sol-IDE is built for the unreached 6 billion crypto users and devs. <br/>
+          6. Sol-IDE is built to quickly onboard people to the world of Blockchain Programming. <br/>
+        </div>{" "}
       </div>
     ),
   },
@@ -84,8 +93,8 @@ export const products = [
     title: "Wallet Pro",
     description:
       "A Smart Web3 Wallet built for humans.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+    thumbnail: walletproUnlock,
+    images: [walletproUnlock, walletproSettings],
     stack: ["Nextjs", "Radix UI", "ShadcnUI", "Tailwindcss", "Zustand", "Chrome Extension", "Web APIs"],
     slug: "wallet-pro",
     content: (
