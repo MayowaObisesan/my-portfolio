@@ -1,3 +1,5 @@
+"use client";
+
 import { Heading } from "./Heading";
 import { Paragraph } from "./Paragraph";
 import resumeData from "./ResumeData/Mayowa_CV_2025.json";

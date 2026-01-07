@@ -1,3 +1,5 @@
+"use client";
+
 import React, { type JSX } from "react";
 
 import localFont from "next/font/local";

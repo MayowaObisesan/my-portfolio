@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 import nextMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
-import rehypePrism from "@mapbox/rehype-prism";
+import rehypePrism from "rehype-prism-plus";
 
 const nextConfig = {
     // Configure pageExtensions to include md and mdx
@@ -16,17 +16,25 @@ const nextConfig = {
             "cdn-images-1.medium.com"
         ],
     },
-    // experimental: {
-    //     mdxRs: true,
-    // },
-};
-
-const withMDX = nextMDX({
-    extension: /\.mdx?$/,
-    options: {
+    experimental: {
+        mdxRs: true,
+        // turbo: {
+        //     loaders: {
+        //         '.mdx': ['@mdx-js/loader'],
+        //     },
+        // },
+    },
+    // Configure MDX directly in the main config
+    mdxOptions: {
         remarkPlugins: [remarkGfm],
         rehypePlugins: [rehypePrism],
     },
-});
+};
 
-export default withMDX(nextConfig);
+// const withMDX = nextMDX({
+//     extension: /\.mdx?$/,
+// });
+//
+// export default withMDX(nextConfig);
+
+export default nextConfig;
