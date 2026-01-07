@@ -1,13 +1,10 @@
+"use client";
+
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
-import { TechStack } from "@/components/TechStack";
-import Image from "next/image";
-import GithubStats from "@/components/GithubStats.mdx";
-import {ResumeSkills} from "@/components/ResumeSkills";
-import {ResumeProfiles} from "@/components/ResumeProfiles";
 
 export default function Home() {
   return (

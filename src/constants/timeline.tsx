@@ -1,3 +1,5 @@
+"use client";
+
 import resumeData from "@/components/ResumeData/Mayowa_CV_2025.json";
 import { parseResponsibilities } from "@/lib/utils";
 
