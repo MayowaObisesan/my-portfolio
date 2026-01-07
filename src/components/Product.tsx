@@ -6,6 +6,9 @@ import { Heading } from "./Heading";
 import { Paragraph } from "./Paragraph";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import {Button} from "@/components/ui/button";
+import {LucideConstruction} from "lucide-react";
+import {Badge} from "@/components/ui/badge";
 
 export const SingleProduct = ({ product }: { product: Product }) => {
   const [activeImage, setActiveImage] = useState<StaticImageData | string>(
@@ -38,7 +41,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         />
         <div className="absolute bottom-0 bg-background h-40 w-full mask-[linear-gradient(to_bottom,transparent,white)] dark:mask-[linear-gradient(to_bottom,transparent,black)]" />
       </motion.div>
-      <div className="flex flex-row justify-center my-8 flex-wrap">
+      <div className="flex flex-row justify-center my-8 flex-wrap gap-y-4">
         {product.images.map((image, idx) => (
           <button
             onClick={() => setActiveImage(image)}
@@ -68,13 +71,14 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         </div>
       </div>
       <div>
-        <Paragraph className="max-w-xl mt-4">{product.description}</Paragraph>
+        <Paragraph className="not-md:max-w-xl mt-4">{product.description}</Paragraph>
       </div>
       <div className="prose prose-sm md:prose-base max-w-none text-muted-foreground">
         {product?.content}
       </div>
 
-      <a
+      {product?.isActive
+        ? <a
         href={product.href}
         target="__blank"
         className="inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-hidden transition ring-offset-gray-900 bg-secondary text-muted-foreground shadow-lg shadow-black/20 sm:backdrop-blur-xs group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-5 origin-left"
@@ -97,6 +101,21 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           <path d="M13 6l6 6"></path>
         </svg>
       </a>
+        : <div className={'flex flex-row gap-2 mt-4'}>
+          <div className={'relative inline-flex flex-row items-center gap-2 px-2 py-1.5 rounded-sm bg-secondary'}>
+            <LucideConstruction color={'yellow'} size={28} />
+            <Badge className={'px-2 py-2 rounded-sm text-sm'} variant={'destructive'}>Site Under Maintenance</Badge>
+            <span className={'absolute -top-1 -right-1 bg-orange-400/60 rounded-full size-6 animate-pulse'}></span>
+            <span className={'absolute -top-0 -right-0 bg-amber-300 rounded-full size-4 animate-pulse'}></span>
+          </div>
+          <Button
+            disabled
+            className={'inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-hidden transition ring-offset-gray-900 bg-secondary text-muted-foreground shadow-lg shadow-black/20 sm:backdrop-blur-xs group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-5 origin-left'}
+          >
+            Preview Disabled
+          </Button>
+        </div>
+      }
     </div>
   );
 };
