@@ -26,16 +26,21 @@ interface IMediumArticle {
   categories?: string[];
 }
 
+const ARTICLES_PER_PAGE = 10;
+
 const MediumArticles = () => {
   const [hovered, setHovered] = useState<string | null>(null);
   const [viewType, setViewType] = useState<"list" | "grid">("list");
   const [articles, setArticles] = useState<IMediumArticle[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [displayCount, setDisplayCount] = useState(ARTICLES_PER_PAGE);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   useEffect(() => {
     const fetchArticles = async () => {
       try {
+        // Use rss2json to fetch and parse Medium RSS feed
         const response = await fetch(
           'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mayowaobisesan',
           { cache: 'no-store' }
@@ -46,21 +51,22 @@ const MediumArticles = () => {
         }
 
         const data = await response.json();
-        console.log("rss articles", data);
 
         if (data.items) {
           const formattedArticles: IMediumArticle[] = data.items.map((item: any) => ({
-            guid: item.guid,
+            guid: item.guid || item.link,
             title: item.title,
-            categories: item.categories,
+            categories: item.categories || [],
             content: item.content,
-            description: item.description,
+            description: item.description || '',
             link: item.link,
             pubDate: item.pubDate,
             thumbnail: item.thumbnail
           }));
 
           setArticles(formattedArticles);
+          // Set initial display count
+          setDisplayCount(Math.min(formattedArticles.length, ARTICLES_PER_PAGE));
         }
       } catch (err) {
         console.error('Error fetching Medium articles:', err);
@@ -127,6 +133,18 @@ const MediumArticles = () => {
     return { imageUrl: null, caption: null };
   };
 
+  const visibleArticles = articles.slice(0, displayCount);
+  const hasMore = displayCount < articles.length;
+
+  const handleLoadMore = () => {
+    setLoadingMore(true);
+    // Simulate a small delay for better UX
+    setTimeout(() => {
+      setDisplayCount(prev => Math.min(prev + ARTICLES_PER_PAGE, articles.length));
+      setLoadingMore(false);
+    }, 300);
+  };
+
   if (articles.length === 0) {
     return (
       <div className="mt-20">
@@ -154,7 +172,7 @@ const MediumArticles = () => {
         {
           viewType === "list" ?
             <div className="max-w-5xl mx-auto my-10">
-              {articles.map((article, index) => {
+              {visibleArticles.map((article, index) => {
                 const { imageUrl, caption } = parseFirstImageFromContent(article.content);
 
                 return (
@@ -172,7 +190,9 @@ const MediumArticles = () => {
                   >
                     <Link
                       key={`blog-${article.title}`}
-                      href={`/blog/${article.link}`}
+                      href={article.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="relative my-10 block"
                       onMouseEnter={() => setHovered(article.link)}
                       onMouseLeave={() => setHovered(null)}
@@ -240,7 +260,7 @@ const MediumArticles = () => {
               })}
             </div>
             : <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {articles.map((article, index) => {
+              {visibleArticles.map((article, index) => {
                 const { imageUrl, caption } = parseFirstImageFromContent(article.content);
 
                 return (
@@ -309,6 +329,19 @@ const MediumArticles = () => {
               })}
             </div>
         }
+
+        {/* Load More Button */}
+        {hasMore && (
+          <div className="flex justify-center mt-8">
+            <Button
+              onClick={handleLoadMore}
+              disabled={loadingMore}
+              className="px-8"
+            >
+              {loadingMore ? 'Loading...' : `Load More Articles (${articles.length - displayCount} remaining)`}
+            </Button>
+          </div>
+        )}
       </div>
     </div>
   );
