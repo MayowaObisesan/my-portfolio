@@ -29,6 +29,12 @@ export const Sidebar = () => {
             // @ts-ignore
             className="px-6 z-100 py-10 bg-muted max-w-56 lg:w-fit fixed lg:relative h-screen left-0 flex flex-col justify-between"
           >
+            <button
+              className="absolute lg:hidden top-4 -right-4 h-8 w-8 border border-border rounded-full backdrop-blur-xs flex items-center justify-center z-50"
+              onClick={() => setOpen(!open)}
+            >
+              <IconLayoutSidebarRightCollapse className="h-4 w-4 text-foreground" />
+            </button>
             <div className="flex-1 overflow-auto">
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
