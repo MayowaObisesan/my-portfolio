@@ -5,10 +5,15 @@ import { Paragraph } from "@/components/Paragraph";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | John Doe",
-
+  title: "Contact Me",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely."
+    "Get in touch with Mayowa Obisesan - a full-stack developer. Reach out via email or connect on social platforms.",
+  openGraph: {
+    title: "Contact Me | Mayowa Obisesan",
+    description: "Get in touch with Mayowa Obisesan - a full-stack developer.",
+    type: "website",
+    images: ["/images/my_profile_picture_blurred.jpg"],
+  },
 };
 
 export default function Projects() {
