@@ -10,10 +10,15 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | John Doe",
-
+  title: "About Me",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely."
+    "Learn more about Mayowa Obisesan - a full-stack developer, writer and speaker. A digital nomad who travels the world while building impactful products.",
+  openGraph: {
+    title: "About Me | Mayowa Obisesan",
+    description: "Learn more about Mayowa Obisesan - a full-stack developer, writer and speaker.",
+    type: "profile",
+    images: ["/images/my_profile_picture_blurred.jpg"],
+  },
 };
 
 export default function AboutPage() {
