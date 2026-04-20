@@ -1,4 +1,3 @@
-"use client";
 
 import feedbacksHome from "/public/projects-images/feedbacks-home.png";
 import feedbacksBrands from "/public/projects-images/feedbacks-brands.png";
@@ -44,6 +43,35 @@ export const products = [
     ),
     isActive: false,
   },*/
+  {
+    href: "https://os-ui.vercel.app",
+    title: "OS-UI",
+    description:
+      "OS-UI is a fully interactive web app that renders any browser-compatible content as native OS-like windows: React components, external web pages, online games, even WASM apps.",
+    thumbnail: osuiWindows,
+    images: [osuiWindows, osuiHome, osuiApp, osuiBrowser, osuiBackgroundManager],
+    stack: ["Nextjs", "Tailwindcss", "Radix", "ShadcnUI", "Zustand"],
+    slug: "os-ui",
+    content: (
+      <div>
+        <p>
+          {/*OS-UI is a fully interactive web app that renders any browser-compatible content as native OS-like windows: React components, external web pages, online games, even WASM apps.*/}
+          <br />
+          I’m building OS-UI to bring a fresh, innovative perspective to websites and web apps that often look and behave the same.
+        </p>
+        <div className={'mt-4'}>
+          Key features:
+          <br/>
+          1. Multi-window multitasking: create and drag multiple windows in a single browser tab. <br />
+          2. Configurable OS-style menus to control open windows. <br />
+          3. Minimize-to-dock, maximize, and full-screen support. <br />
+          4. Fast, optimized performance that runs entirely in your browser. <br />
+          5. Embedded browser: load other webpages without leaving the workspace. <br />
+        </div>{" "}
+      </div>
+    ),
+    isActive: true,
+  },
   {
     href: "https://ai-image-detector-three.vercel.app",
     title: "AI Image Detector",
@@ -99,35 +127,6 @@ export const products = [
           4. Sol-IDE is built on modern technologies, that means more optimized performance and better user experience, with a captivating UI that does not strain your eye. <br/>
           5. Sol-IDE is built for the unreached 6 billion crypto users and devs. <br/>
           6. Sol-IDE is built to quickly onboard people to the world of Blockchain Programming. <br/>
-        </div>{" "}
-      </div>
-    ),
-    isActive: true,
-  },
-  {
-    href: "https://os-ui.vercel.app",
-    title: "OS-UI",
-    description:
-      "OS-UI is a fully interactive web app that renders any browser-compatible content as native OS-like windows: React components, external web pages, online games, even WASM apps.",
-    thumbnail: osuiWindows,
-    images: [osuiWindows, osuiHome, osuiApp, osuiBrowser, osuiBackgroundManager],
-    stack: ["Nextjs", "Tailwindcss", "Radix", "ShadcnUI", "Zustand"],
-    slug: "os-ui",
-    content: (
-      <div>
-        <p>
-          {/*OS-UI is a fully interactive web app that renders any browser-compatible content as native OS-like windows: React components, external web pages, online games, even WASM apps.*/}
-          <br />
-          I’m building OS-UI to bring a fresh, innovative perspective to websites and web apps that often look and behave the same.
-        </p>
-        <div className={'mt-4'}>
-          Key features:
-          <br/>
-          1. Multi-window multitasking: create and drag multiple windows in a single browser tab. <br />
-          2. Configurable OS-style menus to control open windows. <br />
-          3. Minimize-to-dock, maximize, and full-screen support. <br />
-          4. Fast, optimized performance that runs entirely in your browser. <br />
-          5. Embedded browser: load other webpages without leaving the workspace. <br />
         </div>{" "}
       </div>
     ),

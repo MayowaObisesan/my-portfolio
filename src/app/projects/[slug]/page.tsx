@@ -9,6 +9,7 @@ import { Product } from "@/types/products";
 import { Metadata } from "next";
 import Image from "next/image";
 import { redirect } from "next/navigation";
+import {Text} from "lucide-react";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -46,6 +47,7 @@ export default async function SingleProjectPage(
   }
   return (
     <Container>
+      <Text>{slug}</Text>
       <SingleProduct product={product} />
     </Container>
   );
