@@ -1,0 +1,706 @@
+{
+  "picture": {
+    "hidden": true,
+    "url": "https://storage.rxresu.me/clp9fyfvd9oj09huny2a3nk0e/pictures/clp9kzn0j084vm3d2pvnkr4xe.jpg",
+    "size": 64,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Mayowa Obisesan",
+    "headline": "Frontend Engineer",
+    "email": "mayowaobi74@gmail.com",
+    "phone": "+2349131581488",
+    "location": "",
+    "website": {
+      "url": "https://amtheblessed.vercel.app",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "Summary",
+    "columns": 1,
+    "hidden": true,
+    "content": "<p>Software Engineer with experience building and leading teams, working with JavaScript, TypeScript, Python, C++ and their respective frameworks. I have hands-on experience working in various sectors: Web, Banking, AI and ML with good exposure to the industry best practices and standards across the entire Software Development Life Cycle. I strive to ensure the best approach to software development.  **My Philosophy is that whatever can be made simple should not be made unnecessarily complex.**</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "Profiles",
+      "columns": 5,
+      "hidden": false,
+      "items": [
+        {
+          "id": "k1b02jo99vs5liv4sba67lb1",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "github-logo",
+          "network": "Github",
+          "username": "MayowaObisesan",
+          "website": {
+            "url": "https://github.com/MayowaObisesan",
+            "label": ""
+          }
+        },
+        {
+          "id": "yt77ei8t43856va84vxe5a7u",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "linkedin-logo",
+          "network": "LinkedIn",
+          "username": "mayowa-obisesan",
+          "website": {
+            "url": "https://linkedin.com/in/mayowa-obisesan",
+            "label": ""
+          }
+        },
+        {
+          "id": "fspupjhz961u3xk0w2qs9qpl",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "x",
+          "network": "Twitter",
+          "username": "amdblessed",
+          "website": {
+            "url": "https://x.com/amdblessed",
+            "label": ""
+          }
+        },
+        {
+          "id": "x2j17fktngn5chsp7egkjvpr",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "medium-logo",
+          "network": "Medium",
+          "username": "mayowaobisesan",
+          "website": {
+            "url": "https://mayowaobisesan.medium.com",
+            "label": ""
+          }
+        },
+        {
+          "id": "019da990-3b3c-747f-9e4a-cb8f1fa3c46a",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "acorn",
+          "network": "portfolio",
+          "username": "amtheblessed",
+          "website": {
+            "url": "https://amtheblessed.vercel.app",
+            "label": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "k7uw1n85uzmsi33ibbsuj7dv",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "LearnWay Inc.",
+          "position": "Full-Stack Engineer",
+          "location": "",
+          "period": "July 2025",
+          "website": {
+            "url": "https://learnway.xyz",
+            "label": ""
+          },
+          "description": "<ul><li><p>Joined the team to help rebuild the V2 of the product from scratch with a focus of rewriting the backend, converting it from PHP to NestJs.</p></li><li><p>Built and completed the Auth and 2 other modules making a total of 3 out of the 9 modules in 30 days.</p></li><li><p>Ensured best industry practice on the auth module, following all best auth practices like access control, token management, refresh, rotation, and more.</p></li><li><p>Worked closely with the mobile team to ensure that all provided APIs work align with the UI design flow. I leveraged my knowledge of frontend development which made collaboration with the mobile team seamless.</p></li><li><p>Made upgrades to the V1 backend architectural flow to accommodate the new v2 features such as the backend-blockchain integration sync and wallet features and to ensure the product scale.</p></li><li><p>In 3 months, 6 out of the 9 modules have been implemented and fully functional.</p></li><li><p>We successfully made the first release 5 months into the project. Successfully migrating users to the new V2, and ensuring scale for new users.</p></li><li><p>Built the internal dashboard for Visualizing and managing user's data and for system-wide configuration that affects the backend, mobile and our server deployments.</p></li><li><p>Led the implementation of the new gamified lesson module of the project to ensure a fun environment with minimal overhead and proprt state management both from the client and the server-side of the app, for a rich-experience for the user.</p></li><li><p>I Leverage the use of AI to ensure faster release of our product's implementation.</p></li><li><p>I Wrote all Unit and Integration tests for the auth module and the gamified lesson module.</p></li><li><p>Led the implementation of the Gamified Challenge module of the project, ensuring that our users can compete with other users which also improve knowledge retention.</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "jvo4twnwvjamkb6zi3076tnx",
+          "hidden": true,
+          "company": "Navis War Game",
+          "position": "Senior Frontend Engineer",
+          "location": "UK",
+          "period": "August 2024 - Present",
+          "website": {
+            "url": "https://naviswar.com",
+            "label": ""
+          },
+          "description": "<ul><li><p>I joined Navis War Game, a startup dedicated to developing a battleship game on the blockchain, in August 2024.</p></li><li><p>Actively participated in the development process, contributing significantly to the beta launch of the game in October 2024.</p></li><li><p>Refactored the game logic to enable bot-player interactions and gameplay functionality.</p></li><li><p>Created and implemented new UI screens to align with the game's design requirements and enhance user experience.</p></li><li><p>Collaborated with backend developers to monitor, display, and store game statistics, ensuring seamless integration of frontend and backend systems.</p></li><li><p>Implemented dynamic ship formations for both computer and player components, enhancing gameplay variety.</p></li><li><p>Refactored the game turn system and introduced a turn countdown feature for improved user engagement and information clarity.</p></li><li><p>Enhanced user experience by enabling the saving and loading of ship formations from storage, facilitating user customization and reusability.</p></li><li><p>Implemented ship color changes to visually indicate hits and misses during gameplay interactions.</p></li><li><p>Resolved critical issues, including fixing computer ship overflow during formation and addressing inconsistencies in bot gameplay behaviour.</p></li><li><p>Spearheading the development of the NFT marketplace within the game, allowing users to discover, purchase, own, and trade game-specific NFTs.</p></li><li><p>Played a pivotal role in the successful beta release of the game in October 2024, showcased by the game's significant growth to over 40,000 monthly users and more than 27,000 active players.</p></li><li><p>Demonstrated strong problem-solving skills, attention to detail, and commitment to optimizing user experience in a fast-paced startup environment.</p></li><li><p>Continuously sought opportunities to innovate, collaborate, and improve frontend development practices to drive project success and user satisfaction.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "ijj8zpfc55fncevptig0cknm",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Navis War Game",
+          "position": "Senior Frontend Engineer",
+          "location": "UK",
+          "period": "August 2024 - February 2025",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><p>I refactored the frontend game logic to enable bot-player interactions and gameplay functionality.</p></li><li><p>I implemented new game UI screens to align with the game's design requirements and enhance user experience aligning with game optimizations.</p></li><li><p>Collaborated with the backend developers to monitor, display, and store real-time gameplay data and statistics, ensuring seamless integration of frontend and backend systems.</p></li><li><p>I co-implemented the dynamic ship formations for the ai and player components, enhancing gameplay variety.</p></li><li><p>I refactored the game turn system and introduced a turn countdown feature for improved user engagement and information clarity.</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "mrjhnyhunkk8w1qr0wccjo6w",
+          "hidden": true,
+          "company": "Scooper Labs",
+          "position": "Frontend Engineer",
+          "location": "Lagos, Nigeria.",
+          "period": "September 2024 - Present",
+          "website": {
+            "url": "https://assetscooper.xyz/",
+            "label": ""
+          },
+          "description": "<ul><li><p>Contributing member of the Scooper Labs team, actively involved in the development of AssetScooper, a token aggregator platform designed to consolidate various tokens into a single token equivalent, enhancing user convenience and efficiency.</p></li><li><p>Collaborating closely with the lead frontend developer since September 2024, focusing on integrating smart contracts and frontend functionalities to optimize user experience.</p></li><li><p>Implemented key features, including a trend system that provides users with real-time insights on token value trends over the past hour, enabling informed decision-making.</p></li><li><p>Engaged in multiple code reviews and collaborated on the revamp of token fetching and display mechanisms to streamline the token aggregation process.</p></li><li><p>Co-created the BlockRepo's website, a related product of Scooper Labs, aligning the website's development with design specifications to ensure a cohesive branding experience.</p></li><li><p>Instrumental in the alpha release of the project, showcasing dedication to delivering high-quality frontend solutions and garnering recognition from base ecosystem's founder Jesse and other key stakeholders.</p></li><li><p>Demonstrated proficiency in frontend development, smart contract integration, and collaborative problem-solving within a dynamic team environment.</p></li><li><p>Committed to innovation, user-centric design, and contributing to the success and growth of projects within the blockchain ecosystem.</p></li><li><p>Played a pivotal role in advancing user experience and technical capabilities within the token aggregation space, positioning Scooper Labs as a leader in the industry.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "s3jwudo793sardtnw4htvpif",
+          "hidden": true,
+          "company": "Scooper Labs",
+          "position": "Frontend Engineer",
+          "location": "Lagos, Nigeria.",
+          "period": "September 2024 - February 2025",
+          "website": {
+            "url": "https://assetscooper.xyz/",
+            "label": ""
+          },
+          "description": "<ul><li><p>I contributed to the frontend development of AssetScooper, a blockchain token aggregator platform designed to combine various tokens into a single token equivalent, prevent dangling user funds.</p></li><li><p>I collaborated closely with the lead frontend developer from September 2024, focusing on integrating the DeFi smart contracts and frontend functionalities to optimize user experience.</p></li><li><p>I implemented key features, including a trend system that provides users with real-time insights on token value trends over timeline, enabling informed decision-making.</p></li><li><p>I participated in multiple code reviews and collaborated on the revamp of token fetching and display mechanisms to streamline the token aggregation process.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "c9mq9j6jdlpopyn6e5ojq8rq",
+          "hidden": true,
+          "company": "Web3bridge",
+          "position": "Blockchain Developer / Web3 Mentor",
+          "location": "Lagos, Nigeria",
+          "period": "January 2024 - Present",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><p>In January 2024, I mentored 70 students from the tenth web3bridge cohort on web3 basics.&nbsp;</p></li><li><p>In April 2024, I represented Web3bridge at the University of Cape Verde, discussing Blockchain security.&nbsp;</p></li><li><p>I presented at the Starknet Africa conference in May 2024, focusing on L2 solutions for scaling Ethereum.&nbsp;</p></li><li><p>I have been leading students' operations at web3bridge since January 2024.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "j4h0gtwv6p2u945oa562ebak",
+          "hidden": true,
+          "company": "Web3bridge",
+          "position": "Blockchain Intern",
+          "location": "Lagos, Nigeria",
+          "period": "July 2023 - December 2023",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><p>Built, deployed and integrated various on-chain decentralized applications (dApps) both on L1 and L2 chains.</p></li></ul><ul><li><p>Designed, implemented and integrated smart-contracts for 4 dapps using frontend SDKs such as thirdweb, wagmi and rainbowkit.</p></li><li><p>Collaborated with 4 other web3 developers to develop a functional eco-incentive platform deployed on Base blockchain called wastewise in November 2023.</p></li><li><p>Authored various smart contracts using Solidity ensuring security and efficiency through test driven development and modern approaches to smart contract development.</p></li><li><p>Gained practical experience developing various smart contracts using hardhat and foundry.</p></li><li><p>Participated in one of Nigeria's biggest Web3 CTF in August 2023 and my team almost won the grand price.</p></li><li><p>Participated and won two hackathons including web3bridge's cohort IX hackathon built on Base and Near BOS Blockchain hackathon where my team came first in the gold challenge in November 2023.</p></li><li><p>Got to the last stage interview of Starknet LambdaClass in December 2023.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "hfo5b1eh1cwx21rylwoytwv7",
+          "hidden": true,
+          "company": "Prunedge development Technologies",
+          "position": "Software Engineer",
+          "location": "",
+          "period": "2022-06-20 - 2023-11-13",
+          "website": {
+            "url": "https://prunedge.com",
+            "label": ""
+          },
+          "description": "<ul><li><p>Worked with a leading commercial bank in Nigeria, to develop its retail banking platform (Banking as a Service) aimed at a 20% increase in response time and 40% increase in User Experience.</p></li><li><p>Built RESTful APIs that served two of the microservices that will power the banking software which will handle millions of requests</p></li><li><p>Led and mentored a team of 4 developers to build a Microsoft sponsored IoT project that promotes computer-based education in rural school without access to internet</p></li><li><p>Implemented SonarQube to maintain 100% code quality across the microservices.</p></li><li><p>Held code review sessions every 2 days to ensure code quality of the codebase which helped reduced the software development feedback cycle by 40%.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "tp9rlz85xjs3xp8l6uwu22t2",
+          "hidden": true,
+          "company": "iTheirs Technologies",
+          "position": "Software Engineer",
+          "location": "",
+          "period": "2020-11-16 - 2022-03-07",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><p>Contributed to the re-architect from a multi-page web app to a single page web-app which led to a 40% increase in user experience.</p></li><li><p>Implemented the logic to Integrate real-time functionality to the SPA using websockets protocol to automate notifications, increasing notification response time by 80%.</p></li><li><p>Refactored the application logic to use caching at the DB level reducing the number of times needed to hit the database which improved page load speed by 30%.</p></li><li><p>Contributed to refactoring the django templates to use custom django filters for server-side calls, which reduced the number of Ajax calls which in turn increased page load speed by 35%.</p></li><li><p>Developed a custom CSS library (EyeCSS) similar to tailwind CSS written in Python for ease-of-use with the Django templates which reduced design time by 40%.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "c1v2yi5o6kabftfqvo00de8c",
+          "hidden": true,
+          "company": "iTheirs Technologies",
+          "position": "Software Engineer",
+          "location": "",
+          "period": "2020-11-16 - 2022-03-07",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><p>Contributed to the re-architect from a multi-page web app to a single page web-app which led to a 40% increase in user experience.</p></li><li><p>Implemented the logic to Integrate real-time functionality to the SPA using websockets protocol to automate notifications, increasing notification response time by 80%.</p></li><li><p>Refactored the application logic to use caching at the DB level reducing the number of times needed to hit the database which improved page load speed by 30%.</p></li><li><p>Contributed to refactoring the django templates to use custom django filters for server-side calls, which reduced the number of Ajax calls which in turn increased page load speed by 35%.</p></li><li><p>Developed a custom CSS library (EyeCSS) similar to tailwind CSS written in Python for ease-of-use with the Django templates which reduced design time by 40%.</p></li></ul>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "columns": 1,
+      "hidden": true,
+      "items": [
+        {
+          "id": "rz24e2zeqmf3r1yk3t25yy28",
+          "hidden": false,
+          "school": "Federal University of Technology, Akure",
+          "degree": "Bachelor of Technology",
+          "area": "Computer Science",
+          "grade": "4.05",
+          "location": "",
+          "period": "2013 - 2018",
+          "website": {
+            "url": "https://futa.edu.ng",
+            "label": ""
+          },
+          "description": "<p></p>"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "columns": 1,
+      "hidden": true,
+      "items": [
+        {
+          "id": "ynrmy5552kve4wegdif7c8oe",
+          "hidden": false,
+          "name": "Summary",
+          "period": " - ",
+          "website": {
+            "url": "https://createsummary.com",
+            "label": ""
+          },
+          "description": "- Built this app to reduce the time spent on the web searching for accurate results.\n- Developed an algorithm to efficiently parse, analyze and clean the contents of each search result before passing the output to a trained ML model for summarization.\n- Used a third-party ML model to provide the summarization.\n- Built the SPA front-end using a modern JS framework.\n- Implemented offline functionality.\n- Fully responsive.\n- Light / Dark themes."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "languages": {
+      "title": "Languages",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "stnuagrkfncz2rkacz6n5pd5",
+          "hidden": false,
+          "language": "English",
+          "fluency": "Native",
+          "level": 5
+        },
+        {
+          "id": "019da9c2-d889-76c8-afed-afad8a11ac4d",
+          "hidden": false,
+          "language": "German",
+          "fluency": "Intermediate",
+          "level": 2
+        },
+        {
+          "id": "anl1e5zn6ktq50bsj5gammtv",
+          "hidden": false,
+          "language": "Yoruba",
+          "fluency": "Native",
+          "level": 5
+        }
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "columns": 1,
+      "hidden": true,
+      "items": [
+        {
+          "id": "vrdxo3b3izphcoliab3sint5",
+          "hidden": false,
+          "icon": "",
+          "name": " ",
+          "keywords": [
+            "Rust",
+            "C++",
+            "Expert Systems",
+            "AGI / ML",
+            "Web3 / Blockchain Technology"
+          ]
+        }
+      ]
+    },
+    "awards": {
+      "title": "Awards",
+      "columns": 1,
+      "hidden": true,
+      "items": [
+        {
+          "id": "k84107g1cmnb0lxeji5e800p",
+          "hidden": false,
+          "title": "ICT Facilitator",
+          "awarder": "Oyo State NYSC",
+          "date": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "Awarded an ICT Facilitator for National Youth Service Corp 2019 Technology group."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Certifications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "publications": {
+      "title": "Publications",
+      "columns": 1,
+      "hidden": true,
+      "items": [
+        {
+          "id": "h4alz95fidyfmidlgjxjfvye",
+          "hidden": false,
+          "title": "A Game Theory Approach to Cryptographic Protocol",
+          "publisher": "",
+          "date": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "Volunteering",
+      "columns": 1,
+      "hidden": true,
+      "items": [
+        {
+          "id": "mfexwldpka2v2cmwbqs85txt",
+          "hidden": false,
+          "organization": "NYSC Tech. Community Development Service",
+          "location": "",
+          "period": " - ",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "- Lead UI design instructor Tech CDS group.\n- Trained fellow Corp members on Graphics Design.\n- Rubbed minds with other web instructors on how to improve UI using the concepts of graphics design and beautiful UI since the concept of design requires having in-depth knowledge of layouts and positioning.\n- Awarded UI design instructor for year 2019."
+        }
+      ]
+    },
+    "references": {
+      "title": "References",
+      "columns": 2,
+      "hidden": true,
+      "items": [
+        {
+          "id": "o6xbhdhl6jl6sf6q1dtttmxa",
+          "hidden": false,
+          "name": "Ayodeji Awosika",
+          "position": "Founder, Web3bridge",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "<p>ayodeji@web3bridge.com</p>"
+        },
+        {
+          "id": "fqolh0utacxiyj8jhqn1fnuv",
+          "hidden": true,
+          "name": "Kelechi Atuma",
+          "position": "Engineering Manager, Wizer",
+          "website": {
+            "url": "https://linkedin.com/in/kelechi-atuma",
+            "label": ""
+          },
+          "phone": "",
+          "description": "<p></p>"
+        },
+        {
+          "id": "i69hnx50o2k04eif5in65qaz",
+          "hidden": true,
+          "name": "Saheed Adedeji",
+          "position": "Senior Engineer, Prunedge",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "<p></p>"
+        },
+        {
+          "id": "pea4s4mxmp8w5ciuqt44u1hi",
+          "hidden": false,
+          "name": "Mayowa Abikoye",
+          "position": "Blockchain Engineer | Web3 Security Researcher",
+          "website": {
+            "url": "https://x.com/the_first_elder",
+            "label": ""
+          },
+          "phone": "",
+          "description": "<p></p>"
+        }
+      ]
+    }
+  },
+  "customSections": [
+    {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": false,
+      "id": "dobhg8f0awuglcx5tistcjmb",
+      "type": "experience",
+      "items": [
+        {
+          "id": "019da98c-d895-7270-9049-94187c8a2e38",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Navis War Game",
+          "position": "Senior Frontend Engineer",
+          "location": "UK",
+          "period": "August 2024 - February 2025",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><p>I enhanced user experience by enabling the saving and loading of ship formations from storage, facilitating user customization and reusability.</p></li><li><p>I resolved the ship color changes to visually indicate hits and misses during gameplay interactions.</p></li><li><p>I resolved major game critical issues, including fixing computer ship overflow during formation and addressing inconsistencies in bot gameplay behaviour.</p></li><li><p>I spearheaded the development of the game marketplace, allowing users to discover, purchase, own, and trade game-specific assets.</p></li><li><p>I played a pivotal role in the successful beta release of the game in December of 2024, and this showcased the game's significant growth to over 100,000 monthly users and more than 97,000 active players.</p></li><li><p>I demonstrated strong problem-solving skills, attention to detail, and commitment to optimizing user experience in a fast-paced startup environment.</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "dck6filu2meofu7wvlgucw0n",
+          "hidden": false,
+          "company": "Scooper Labs",
+          "position": "Frontend Engineer",
+          "location": "Lagos, Nigeria.",
+          "period": "September 2024 - February 2025",
+          "website": {
+            "url": "https://assetscooper.xyz",
+            "label": ""
+          },
+          "description": "<ul><li><p>I contributed to the frontend development of AssetScooper, a blockchain token aggregator platform designed to combine various tokens into a single token equivalent, prevent dangling user funds.</p></li><li><p>I collaborated closely with the lead frontend developer from September 2024, focusing on integrating the DeFi smart contracts and frontend functionalities to optimize user experience.</p></li><li><p>I implemented key features, including a trend system that provides users with real-time insights on token value trends over timeline, enabling informed decision-making.</p></li><li><p>I participated in multiple code reviews and collaborated on the revamp of token fetching and display mechanisms to streamline the token aggregation process.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "lfzrckixb8m8znj384kaungp",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": " ",
+          "position": "",
+          "location": "",
+          "period": "",
+          "website": {
+            "url": "https://scooperlabs.com",
+            "label": ""
+          },
+          "description": "<ul><li><p>I co-created the scooper labs website, aligning the website's development with design specifications to ensure a cohesive branding experience.</p></li><li><p>I was crucial in the alpha release of the project, showcasing dedication to delivering high-quality frontend solutions.</p></li><li><p>I demonstrated proficiency in frontend development, smart contract integration, and collaborative problem-solving within a dynamic team environment.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "z5fl77zdo9k965r9myk5fip1",
+          "hidden": false,
+          "company": "Prunedge Development Technologies",
+          "position": "Software Engineer",
+          "location": "Lagos, Nigeria",
+          "period": "June 2022 - November 2023",
+          "website": {
+            "url": "https://prunedge.com",
+            "label": ""
+          },
+          "description": "<ul><li><p>Worked a backend engineer enriching my understanding of backend engineering.</p></li><li><p>I was part of the team that worked with a leading commercial bank in Nigeria, to develop its retail banking platform (Banking as a Service) in 2023. The retail banking platform was built to improve platform response time by 20% and 40% increase in User Experience.</p></li><li><p>I built RESTful APIs that powered two of the microservices for the banking software which is meant handle millions of requests.</p></li><li><p>I implemented SonarQube to maintain 100% code quality across the microservices that I worked on.</p></li><li><p>I led a team of 4 developers to build a Microsoft sponsored IoT project that promotes computer-based education in rural school without access to internet as an important side project.</p></li><li><p>I held code review sessions every 2 days to ensure code quality of the codebase, and this helped improve the software development feedback cycle by 40%.</p></li></ul>",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": true,
+      "id": "l973z39hjtbtw7rqmh4hpv6t",
+      "type": "experience",
+      "items": []
+    },
+    {
+      "title": "Custom Section",
+      "columns": 1,
+      "hidden": false,
+      "id": "te52j478h57vuatwr97e0a17",
+      "type": "experience",
+      "items": []
+    },
+    {
+      "title": "Objective",
+      "columns": 1,
+      "hidden": false,
+      "id": "wurruaen2jf9dtj3xcr50kub",
+      "type": "experience",
+      "items": [
+        {
+          "id": "l0whdt74auylgo8a6op7uo3f",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": " ",
+          "position": "",
+          "location": "",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>I am an Experienced Software Engineer with a focus on frontend technology.</p>",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": false,
+      "id": "019da98e-d00e-74c0-b0ba-76e41e49d0f3",
+      "type": "experience",
+      "items": [
+        {
+          "id": "ixv4d1116vo0s6h58utyem2l",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "iTheirs Technologies",
+          "position": "Associate Frontend Engineer",
+          "location": "",
+          "period": "November 16, 2020 - March 7, 2022",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><p>I improved a multi-page web app by converting it into a single-page app, enhancing user experience by 40%.</p></li></ul><ul><li><p>I integrated real-time functionality using WebSocket, leading to 80% faster notification response time.</p></li><li><p>I incorporated client-side caching into application logic, reducing database hits, boosting page load speed by 30%.</p></li><li><p>I enhanced Django templates by using custom Django filters for server-side calls, decreasing Ajax calls and boosting page load speed by 35%.</p></li><li><p>I created EyeCSS, a custom CSS library like Tailwind CSS but in Python, to streamline the design process with Django templates, saving 40% in  the time needed to create frontend django templates.</p></li></ul>",
+          "roles": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "template": "onyx",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "wurruaen2jf9dtj3xcr50kub",
+            "profiles",
+            "experience",
+            "volunteer"
+          ],
+          "sidebar": [
+            "interests",
+            "certifications",
+            "awards",
+            "publications"
+          ]
+        },
+        {
+          "fullWidth": true,
+          "main": [
+            "dobhg8f0awuglcx5tistcjmb",
+            "references",
+            "education",
+            "l973z39hjtbtw7rqmh4hpv6t",
+            "te52j478h57vuatwr97e0a17"
+          ],
+          "sidebar": []
+        },
+        {
+          "fullWidth": true,
+          "main": [
+            "019da98e-d00e-74c0-b0ba-76e41e49d0f3",
+            "skills",
+            "languages",
+            "projects"
+          ],
+          "sidebar": []
+        }
+      ]
+    },
+    "css": {
+      "enabled": false,
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}"
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 18,
+      "marginY": 18,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "rectangle"
+      },
+      "colors": {
+        "primary": "rgba(5, 150, 105, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "400",
+          "400",
+          "600"
+        ],
+        "fontSize": 10.5,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 13.5,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": "<p>Check out my 2024 Resume – it's fresh, sleek, and on the lookout for new opportunities.</p>"
+  }
+}
