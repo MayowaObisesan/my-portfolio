@@ -4,7 +4,6 @@ import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 import { Heading } from "./Heading";
 import { Paragraph } from "./Paragraph";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import {Button} from "@/components/ui/button";
 import {LucideConstruction} from "lucide-react";

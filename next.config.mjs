@@ -29,6 +29,7 @@ const nextConfig = {
         remarkPlugins: [remarkGfm],
         rehypePlugins: [rehypePrism],
     },
+    allowedDevOrigins: ['192.168.1.191']
 };
 
 // const withMDX = nextMDX({

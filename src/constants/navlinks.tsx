@@ -6,6 +6,7 @@ import {
   IconBriefcase2,
   IconMail,
   IconMessage2,
+  IconVideo,
 } from "@tabler/icons-react";
 
 export const navlinks = [
@@ -28,6 +29,11 @@ export const navlinks = [
     href: "/blog",
     label: "Articles",
     icon: IconArticle,
+  },
+  {
+    href: "/videos",
+    label: "Videos",
+    icon: IconVideo,
   },
   {
     href: "/contact",

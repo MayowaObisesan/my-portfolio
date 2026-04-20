@@ -1,15 +1,12 @@
-import { Container } from "@/components/Container";
-import { Heading } from "@/components/Heading";
-import { Highlight } from "@/components/Highlight";
-import { Paragraph } from "@/components/Paragraph";
-import { SingleProduct } from "@/components/Product";
-import { Products } from "@/components/Products";
-import { products } from "@/constants/products";
-import { Product } from "@/types/products";
-import { Metadata } from "next";
-import Image from "next/image";
-import { redirect } from "next/navigation";
-import {Text} from "lucide-react";
+import {Container} from "@/components/Container";
+import {SingleProduct} from "@/components/Product";
+import {products} from "@/constants/products";
+import {Product} from "@/types/products";
+import {Metadata} from "next";
+import {redirect} from "next/navigation";
+import {Button} from "@/components/ui/button";
+import {LucideArrowLeft} from "lucide-react";
+import Link from "next/link";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -47,8 +44,16 @@ export default async function SingleProjectPage(
   }
   return (
     <Container>
-      <Text>{slug}</Text>
-      <SingleProduct product={product} />
+      {/*<Heading as={'h4'} className={'uppercase'}>{slug}</Heading>*/}
+      <Link href={'/projects'} passHref>
+        <Button
+          className={'cursor-pointer'}
+          variant={'link'}
+        >
+          <LucideArrowLeft/> Back
+        </Button>
+      </Link>
+      <SingleProduct product={product}/>
     </Container>
   );
 }
